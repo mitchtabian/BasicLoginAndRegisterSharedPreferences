@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etNewName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etNewPassword"
+        android:layout_below="@+id/etNewName"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNewEmail"
+        android:layout_below="@+id/etNewPassword"
+        android:layout_alignLeft="@+id/etNewPassword"
+        android:layout_alignStart="@+id/etNewPassword"
+        android:layout_alignRight="@+id/etNewPassword"
+        android:layout_alignEnd="@+id/etNewPassword"
+        android:hint="Enter Email" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/btnNewRegister"
+        android:layout_below="@+id/etNewEmail"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
